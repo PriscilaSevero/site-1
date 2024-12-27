@@ -1,0 +1,49 @@
+
+body, h1, h2, p, header, main, aside, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background: #044377;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  
+  main {
+    display: block;
+    margin: 20px;
+  }
+  
+  section {
+    flex: 3;
+    margin-right: 20px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  aside {
+    flex: 1;
+    background: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
